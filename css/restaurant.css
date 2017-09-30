@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.wrapper{
+	background: #525151;
+	margin: auto;
+}
+.wrapper ul{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	list-style-type: none;
+	color: #fff;
+	overflow: hidden;
+}
+.wrapper li{
+	margin: auto;
+}
+.wrapper li.menu2{
+	padding: 0 40px 0 0;
+	float: left;
+}
+.wrappr li li.menu3 a{
+	float:right; 
+}
+.wrapper ul li a{
+	text-decoration: none;
+	float: right;
+	padding: 0 40px 0 0;
+}
+.wrapper ul li a:hover{
+	background: #35b5eb;
+	width: 65px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+}
+.cfvf{
+	color: #eee;}
+.cfvf{
+	width: 1200px;
+	height: 1080px;
+	margin: 10px auto 0 auto;
+	justify-content: space-between;
+	display: flex;
+}
+
+.choice{
+	background: #f9f9f9;
+	font-size: 16px;
+	height: 1080px;
+	width: 215px;
+	overflow: hidden;
+}
+.choice p{
+	color: #525151;
+	font-size: 16px;
+	padding: 20px 0 10px 45px;
+	border-bottom: 2px solid #0a9edc;
+	width: 172px;
+	margin: 0 0 10px 0;
+}
+.choice.choiceleft{
+
+}
+.choice ul li{
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	list-style-type: none;
+	padding: 0 0 0 45px;
+}
+.choice ul li.choiceleft1{
+	background: #eaf5f9;
+	border: 1px solid #d7dfe4;
+}
+.choice ul li.choiceleft2{
+	border-right: 1px solid #d7dfe4;
+	border-left: 1px solid #d7dfe4;
+	font-size: 14px;
+}
+.choice ul li.choiceleft3{
+	border-bottom: 1px solid #d7dfe4;
+	border-right: 1px solid #d7dfe4;
+	border-left: 1px solid #d7dfe4;
+	font-size: 14px;
+	color: #0a9edc;
+}
+.choice ul li.choiceleft3:hover{
+	color: #0a9edc;
+}
+
+
+.choice ul li.choiceleft5{
+	float: right;
+}
+
+
+
+
+.choiceright{
+  width: 970px;
+  height: 1080px;
+  background: #ddd;
+  margin: auto;
+  float: right;
+}
+.choiceright p#top{
+	font-size: 16px;
+}
+.choiceright p#right{
+	color: #525151;
+}
+.choiceright p{
+	text-decoration: none;
+	padding: 10px 0 10px 40px;
+	color: #525151;
+	font-size: 12px;
+}
+hr{
+	width: 830px;
+	float: right;
+	border: 1px #cccccc dotted;
+}
+.choiceright ul{
+  width: 930px;
+  height: 45px;
+  float: right;
+  margin: 0 20px 0 20px;
+  line-height: 45px;
+  background: #eee;
+}
+.choiceright ul li{
+  list-style-type: none;
+  float: left;
+  margin: 0 35px 0 40px;
+}
+.choiceright ul li a{
+  text-decoration: none;
+  overflow: hidden;
+  color: #000;
+}
+.choiceright ul li.wer2{
+  float: right;
+}
+.choiceright ul li.wer2 a:hover{
+  color: #5abeed;
+}
+.choiceright.quan.right{
+	float: right;
+	width: 390px;
+	height: 180px;
+}
+.choiceright.right{
+	display: flex;
+}
+.choicerighttop img{
+	padding: 0 0 0 35px;
+}
+.choicerightto p{
+
+}
+
+
+
+.script{
+	background: #525151;
+	margin: auto;
+
+}
+.script ul{
+	width: 1010px;
+	height: 300px;
+	margin: 0 auto;
+	list-style-type: none;
+	color: #fff;
+	overflow: hidden;
+	background-image: url(../image/touxiang5.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	margin: 25px 90px 30px 195px;
+	padding: 50px 0 20px 0;
+	border-bottom: 1px solid #fff;
+}
+.script ul li{
+	float: right;
+	margin: 10px 50px 10px;
+}
+.script ul li.sfhgh1 {
+}
+.script ul img{
+	float: right;
+	padding: 30px 0 0 0;
+}
+
+
+
+.icon{
+	position: fixed;
+	right:0;
+	top:200px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin: 0;
+	padding: 0 ;
+}

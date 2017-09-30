@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav.menu{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-size: 10px;
+	background: #2A3940;
+	height: 69px;
+	line-height:69px;
+}
+nav.menu > ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+nav.menu li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 20px;
+    position: relative;
+}
+nav.menu .activeSty > a {
+	color: #9cd249 !important;
+}
+nav.menu li a{
+	display: block;
+	font-family: "Source San Pro" ,helvetica,sans-serif;
+	font-weight: 600;
+	font-size: 1.6em;
+    text-align: center;
+	font-style: normal;
+	color: #D1D3D5;
+	text-decoration: none;
+
+}
+nav.menu li choice2 a{
+	color: #94C748;
+}
+nav.button{
+	height: 25px;
+	width: 25px;
+	border-radius: 12.5px;
+	font-size: 15px;
+	margin: 200px 200px;
+
+
+}
+
+.block{
+	font-size: 10px;
+	background: #2A3940;
+	height: 69px;
+	line-height:69px;
+	background: #2b3a41;
+
+}
+.block p{
+	display: flex;
+	width: 1000px;
+	margin: 0 auto;
+	color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.block button{
+	background: #97cf46;
+	color: #fff;
+	border: none;
+	width: 200px;
+	padding: 5px 0;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+}
+.block button:hover{
+	color: #97cf46;
+	background: #fff;
+}
+.contenter{
+	background: #e6e5e5;
+}
+.inner{
+	/*background: #ece7e3;*/
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+    justify-content: space-between;
+}
+.inner p{
+      /*height:120px;*/
+      width: 400px;
+      /*background: #ECE2E9 ;*/
+      position: 5px 0;
+}
+.inner a{
+	align-items: center;
+    display: flex;
+}
+
+
+.max{
+	background: #f5f2ef
+	
+}
+    .max .content2{
+	    display: flex;
+	    width: 1000px;
+	    margin: 40px auto 0 auto;
+	    justify-content: space-between;
+
+}
+
+    .max .content2 .contentLeft{
+	    width: 510px;
+	    background: #fff;
+	    border-radius: 5px;
+	    overflow: hidden;
+}
+.contentLeft .nativeUl{
+	padding-left: 20px;
+	height: 55px;
+	line-height: 55px;
+	background: #8bc93e;
+}
+    .contentLeft .nativeUl li{
+    	height: 100%;
+	    list-style: none;
+	    float: left;
+	    border-right: 1px solid #8ead57;
+	    border-left:1px solid #9dd84d;
+	    padding: 0 24px;
+}
+        .contentLeft .nativeUl li a{
+	        color: #fff;
+	        text-decoration: none;
+	        font-size: 14px;
+}.contentLeft .nativeUl .avtiveSty{
+	background: #fff;
+}
+.contentLeft .nativeUl .avtiveSty a{
+	color: #000;
+}
+
+.contentLeft .readlist{
+	padding: 0 18px;
+}
+.contentLeft .readlist li{
+	padding: 20px 0;
+	display: flex;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+.contentLeft .readlist li div{
+	position: relative;
+	padding-left: 33px;
+}
+.contentLeft .readlist li div p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.contentLeft .readlist li div button{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+
+}
+.contentRight .topright{
+	background: #eee;
+}
+.contentRight .topright li{
+	display: flex;
+	list-style: none;
+	background: #faf7f5;
+}
+
+.contentRight .topright li p{
+	font-size: 14px;
+	line-height: 20px;
+	padding: 25px 25px 15px 15px;
+}
+.contentRight .topright li div{
+	position: relative;
+	padding-left: 33px;
+}
+
+.contentRight .topright li div button{
+	border: 0;
+	position: absolute;
+	right: 0;
+	padding: 5px 10px;
+	border-radius: 3px;
+	outline: none;
+	margin: 0 25px 0 0;
+
+}
+
+/*.contentLeft .readlist li p{
+	position: relative;
+	display: flex;
+	padding-left: 33px;
+	flex-direction: column;
+}
+.contentLeft .readlist li p button{
+	position: absolute;
+	width: 82px;
+	padding: 5px 0;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.max .content2 .contentRight{
+	width: 450px;
+	background: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+    /*.contentLeft .readlist li{
+	    list-style: none;
+	    font-size: 13px;
+
+}
+        .contentLeft .readlist li p{
+	        display: flex;
+	        justify-content: space-between;
+            float: left;
+}
+
+            .contentLeft .readlist li p button{
+	            padding: 10px 10px;
+	            border: 2px solid #aeaeae;
+}*/
+
+.contentRight .contentRightTop{
+	margin: 0 0 30PX 0;
+	padding: 30px 15px 30px 30px;
+	font-size: 13px;
+	background: #fbf9f8;
+}
+.contentRight .contentRightTop button{
+	padding: 10px;
+	border: 2px solid #aeaeae;
+
+
+}
+.contentRight .contentRightaLight{
+	height: 230px;
+	margin: 0 0 30PX 0;
+	padding: 30px 15px 30px 30px;
+	font-size: 13px;
+	background: #fbf9f8;
+}
+.contentRight .contentRightaLight button{
+	padding: 10px;
+	border: 2px solid #aeaeae;
+}
+.servicesButton{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.servicesButton button{
+	background: #76bd31;
+	color: #fff;
+	font-family: Myriad pro;
+	font-size: 32px;
+	padding: 15px 10px;
+
+}

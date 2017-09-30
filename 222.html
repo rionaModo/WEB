@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="myFunction()">点击这里</button>
+<p id="demo">
+<script>
+var nnn=9;
+function myFunction(){
+	var x;
+	m=11;
+	var d=new Date().getDay();
+	switch(d)
+	{
+		case 0:
+		x="Today it's Sunday";
+		break;
+       case 6:
+       x="Today it's Saturday";
+       break;
+       default:
+       	x="Look forward to the Weekend";
+	}
+    document.getElementById("demo").innerHTML=nnn;
+}
+nnn=10;
+function myhandle(visitor){
+
+
+return (visitor=="PRES")?"Dear President ":"Dear ";
+
+ // if(visitor=="PRES"){
+ // 	return "Dear President ";
+
+
+ // }else{
+ // 	return "Dear ";
+ // }
+
+}
+var res=myhandle('PRES');
+
+document.getElementById("demo").innerHTML=res;
+</script>
+</body>
+</html>

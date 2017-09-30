@@ -1,0 +1,103 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ nav.menu{
+	font-size: 22px;
+	background: #2A3940;
+	height: 69px;
+	font-family: "Myriad Pro ",helvetica,sans-serif;
+	line-height: 69px;
+	text-align: center;
+}
+
+nav.menu > ul{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu ul li{
+	position:relative;
+	float: left;
+	margin:0 15px;
+	text-align: center;
+}
+
+nav.menu ul a{
+	text-decoration:none;
+	color: #a9adb0;
+	text-align: center;
+}
+
+nav.menu .activeSty > a {
+	color: #9cd249 !important;
+}
+
+.scrollimage{
+    
+}
+
+.contact{
+	background: #2A3940;
+	height: 69px;
+	line-height: 69px;
+
+}
+.contact p{
+	width: 1000px;
+	color: #eee;
+	margin: 0 200px;
+}
+.contact p button{
+
+    padding: 15px 40px;
+    background: #7bc035;
+    color: #eee;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 0;
+    margin: 0 0 0 100px;
+}
+
+
+.schome{
+	background: #e6e5e6;
+	height: 120px;
+	align-items: center;
+
+}
+.schome p{
+	margin: 0 200px;
+	align-items: center;
+    height: 100%;
+    width: 380px;
+    font-size: 16px;
+}
+.schome p a{
+	font-size: 13px;
+	text-decoration:none;
+	align-items: center;
+    display: flex;
+}
+
+.read{
+	background: #f5f2ef;
+	height: 680px;
+	
+}
+.readleft{
+	height: : 580px;
+	width: 510px;
+	background: #eee;
+	margin: 40px 30px 0 200px;
+}
+.readleft list{
+	padding-left: 20px;
+	height: 55px;
+	line-height: 55px;
+	background: #8bc93e;
+}
+.readleft list li{
+    color: #fff;
+	        text-decoration: none;
+	        font-size: 14px;
+}

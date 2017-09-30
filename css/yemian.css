@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.login{
+	background: #2c3e50;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+}
+.login ul{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.login li{
+	color: #fff;
+	border-right: 1px solid #000;
+	display: inline;
+	padding: 0 20px 0 20px;
+	list-style-type: none;
+}
+.login li.customerlogin{
+	text-align: left;
+}
+.login li.customerlogin4{
+	float: right;
+}
+.login li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.choice{
+	height: 90px;
+	line-height: 90px;
+	background: #fff;
+	text-align:center;
+}
+.choice ul{
+	width: 1170px;
+	margin: 0 auto;
+}
+.choice li.choiceBox0{
+	padding: 0 0 0 20px;
+    font-size: 40px;
+    color:#2c3e50;
+    float: left;
+}
+.choice li.choiceBox0 span{
+	color: #1dd2af;
+}
+
+.choice li.choiceBox6{
+	float: right;
+	margin:15px 0 0 0;
+}
+.choice li.choiceBox{
+	float: right;
+	color: #1dd2af;
+}
+.choice li.choiceBox3{
+	float: right;
+}
+.choice li{
+	list-style-type: none;
+	font-size: 15px;
+	display: inline;
+	margin: 0 30px 0 0;
+}
+.choice li a{
+    text-decoration: none;
+    color: #5d6e80;
+    line-height: 90px;
+}
+
+
+
+
+.scroll{
+	background-image: url(../image/touxiang33.jpg);
+	height: 690px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.scroll h2{
+	padding-top:280px; 
+}
+.left-btn{
+	position: absolute;
+	left:0;
+	top:280px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+}
+.left-btn:hover{
+	background: #1dd2af;
+	text-align: center;
+}
+.right-btn{
+	position: absolute;
+	right:0;
+	top:280px;
+}
+
+.situs{
+	background: #2c3e50;
+	height: 100px;
+	line-height: 100px;
+	font-size: 15px;
+	color: #fff;
+
+}
+.situs ul{
+	width: 1170px;
+	margin: 0 auto;
+}
+.situs ul li{
+	display: inline;
+	float: left;
+	margin: 0 30px 0 0;
+}
+.situs ul li input{
+	border: 1px solid #fff;
+	background: #fff;
+	color: #888888;
+	padding: 10px 10px;
+	background-image: url(../image/ico3.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0 0 0 5px;
+}
+.situs ul li button{
+	background: #1dd2af;
+	padding: 10px 20px;
+	margin: 0 0 0 5px;
+}
+
+
+
+
+.place{
+	height: 630px;
+	background: #fff;
+	text-align:center;
+    color: #2c3e50;
+    margin:85px 0 130px 0;
+}
+.image{
+	text-align: center;
+	height: 630px;
+
+}
+.image ul{
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+.image ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 60px 20px 125px 0;
+	border: 1px;
+	background: #eee;
+}
+.image ul li div.imgs-content{
+	border: 3px solid #fff;
+}
+.image ul li:hover  div.imgs-content{
+   border: 3px solid #1dd2af;
+}
+.image ul li image{
+	width: 260px;
+	height: 270px;
+}
+.image ul li h4{
+	padding: 10px 0 0 0;
+}
+.image ul li p{
+	padding: 5px 10px 20px 10px;
+}
+
+.holidastype-div{
+	background-image: url("../image/touxiang5.png");
+	width: 158px;
+	height: 158px;
+	margin: 70px 45px 0 0;
+}
+.holidastype-li:hover p{
+ color: #1dd2af
+}
+.holidastype-li:hover .holidastype-div{
+ background-image: url("../image/1.png");
+}
+.holidastype{
+	height: 520px;
+	background-image: url("../image/touxiangr.jpg");
+    padding:80px 0 0 0; 
+    color:#fff;
+	padding: 70px 0 0 0;
+
+}
+.holidastype p{
+	margin: 20px 0 0 0;
+	color: #8798a9;
+}
+.holidastype ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.holidastype img{
+	padding: 70px 45px 0 0;
+}
+.sfhgh{
+	height: 460px;
+	padding:80px 0 0 0; 
+    color:#000;
+	padding: 70px 0 0 0;
+}
+.sfhgh ul{
+	white-space: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+.sfhgh li{
+	width: 470px;
+	height: 120px;
+	border: 1px solid #eee;
+	
+	display: inline-block;
+	list-style-type: none;
+	margin: 55px 20px 150px 0;
+}
+.sfhgh li:hover{
+	border-top: 3px solid #1dd2af;
+}
+.latest{
+	height: 290px;
+	background: #2c3e50;
+	color: #eee;
+}
+.latest ul{
+	width: 1170px
+	margin:0 auto;
+}
+.latest ul li{
+	text-align: left;
+}
+.latest ul h2{
+	padding: 40px;
+	color: #1dd2af;
+}

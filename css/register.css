@@ -1,0 +1,61 @@
+*,input,div{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	
+	}
+
+  input{
+    outline: 0px;
+  }
+  .main input{
+    height: 37px;
+  }
+.row-list{
+  width: 480px;
+  height: 40px;	
+  line-height: 40px;
+  font-size: 14px;
+  color: #222;
+  font-family:"微软雅黑";
+  border: 1px solid #eee; 
+  margin-bottom: 27px;
+  line-height: 40px;
+  text-indent: 20px;
+}
+.code-btn{
+  width: 160px;
+}
+h4 strong{color:#f90;}
+ p{color: white;
+ 	font-size: 20px;
+ 	background: #ff6600;
+ 	text-align: center;}
+ h3{color: #ff6600}
+
+
+.regi-btn{
+	border: 2px solid red;
+}
+.regi-btn22{
+	color: red;
+}
+.regi-btn i {
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url(../image/sprite.png?v=1494234392315) 
+    -141px -93px no-repeat;
+    margin: 3px 5px 0 0;
+}
+#,input,button{margin: left;
+	height: 40px;
+
+}
+.aliasTip{
+  color:red;
+  font-size: 12px;
+}
+.hide{
+  display: none;
+}
