@@ -163,10 +163,11 @@ hr{
 }
 p#quancenter{
 	font-size: 24px;
-	width: 165px;
-	height: 155px;
+	width: 125px;
+	height: 125px;
 	border: 2px dotted #faad3f;
 	float: left;
+	margin: 10px 0 0 10px;
 }
 .url{
 	background-image: url(../image/weiyou.png);
