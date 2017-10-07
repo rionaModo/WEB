@@ -160,6 +160,12 @@
 .choiceright.right{
 	display: flex;
 }
+.yishiyong{
+	display: none;
+}
+.yiguoqi{
+	display: none;
+}
 .url{
 	width: 940px;
 	height: 240px;
@@ -172,9 +178,20 @@
 .quan-left{
 	width: 535px;
 	height: 175px;
+	
+	float: left;
+}
+.quan-left{
+	background-image: url(../image/yiyou.png);
+	background-repeat: no-repeat;
+}
+.NoCant{
 	background-image: url(../image/weiyou.png);
 	background-repeat: no-repeat;
-	float: left;
+}
+.quan-left NoCant1{
+	background-image: url(../image/weiyou.png);
+	background-repeat: no-repeat;
 }
 .quan-left1{
 	width: 165px;
@@ -217,9 +234,12 @@ span.quan-code8{
 }
 p#righter{
 	font-size: 12px;
+	font-family: Mingliu;
 }
 span{
-	font-size: 16px;
+	font-size: 14px;
+	font-weight: bold;
+
 }
 .quan-right{
 	width: 395px;
