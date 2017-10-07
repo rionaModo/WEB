@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	color: #fff;
 }
 .wrapper{
 	background: #525151;
@@ -29,23 +28,22 @@
 .wrapper ul li a{
 	text-decoration: none;
 	float: right;
-	padding: 0 40px 0 0;
+	padding: 0 20px 0 20px;
+	color: #fff;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 }
 .wrapper ul li a:hover{
 	background: #35b5eb;
-	width: 65px;
 	height: 40px;
 	line-height: 40px;
 	display: inline-block;
 }
 .cfvf{
-	color: #eee;}
-.cfvf{
-	width: 1200px;
 	height: 1080px;
+	width: 1200px;
 	margin: 10px auto 0 auto;
 	justify-content: space-between;
 	display: flex;
+	color: #eee;
 }
 
 .choice{
@@ -54,6 +52,7 @@
 	height: 1080px;
 	width: 215px;
 	overflow: hidden;
+	margin: auto;
 }
 .choice p{
 	color: #525151;
@@ -63,9 +62,6 @@
 	width: 172px;
 	margin: 0 0 10px 0;
 }
-.choice.choiceleft{
-
-}
 .choice ul li{
 	width: 170px;
 	height: 40px;
@@ -73,6 +69,9 @@
 	color: #000;
 	list-style-type: none;
 	padding: 0 0 0 45px;
+}
+.choice ul li:hover{
+	cursor: pointer;
 }
 .choice ul li.choiceleft1{
 	background: #eaf5f9;
@@ -106,6 +105,7 @@
   width: 970px;
   height: 1080px;
   margin: auto;
+  background: #eee;
   float: right;
 }
 .choiceright p#top{
@@ -114,21 +114,24 @@
 .choiceright p#right{
 	color: #525151;
 }
-.choiceright p{
+.choiceright .quan-code{
 	text-decoration: none;
-	padding: 10px 0 10px 40px;
+	padding: 0 0 0  30px;
 	color: #525151;
 	font-size: 12px;
 }
-hr{
-	width: 830px;
+.choiceright  .code-content{
+
+}
+.choiceright .dotted{
+	display: inline-block;
+	width: 800px;
 	float: right;
 	border: 1px #cccccc dotted;
 }
 .choiceright ul{
   width: 930px;
   height: 45px;
-  float: right;
   margin: 0 20px 0 20px;
   line-height: 45px;
   background: #eee;
@@ -157,34 +160,71 @@ hr{
 .choiceright.right{
 	display: flex;
 }
-.quan{
-	width: 420px;
-	height: 160px;
-}
-p#quancenter{
-	font-size: 24px;
-	width: 125px;
-	height: 125px;
-	border: 2px dotted #faad3f;
-	float: left;
-	margin: 10px 0 0 10px;
-}
 .url{
+	width: 940px;
+	height: 240px;
+}
+.quan{
+	width: 930px;
+	height: 180px;
+	padding: 15px;
+}
+.quan-left{
+	width: 535px;
+	height: 175px;
 	background-image: url(../image/weiyou.png);
 	background-repeat: no-repeat;
-	background-position: 20px 90px;
-	padding: 0 0 0 20px;
-	width: 940px;
-	height: 250px;
+	float: left;
 }
-p#right{
+.quan-left1{
+	width: 165px;
+	height: 150px;
+	margin: 10px 0 0 15px;
+	border: 2px dotted #fff;
+	display: inline-block;
+	text-align: center;
+}
+.quan-left2{
+	width: 220px;
+	height: 150px;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	border: 2px dotted #fdcf52;
+	vertical-align: top;
+}
+p.quanbittom{
+	margin: 10px 0 0 20px;
+}
+p#quancenter{
+	margin: inherit;
+	padding: 10px 0 0 0;
+}
+span.dotted{
+	margin:10px 0 0 0;
+}
+span.quan-code5{
+	font-size:16px;
+	color: #000;
+}
+span.quan-code6{
+	font-size: 48px;
+}
+span.quan-code7{
+	font-size: 36px;
+}
+span.quan-code8{
+	
+}
+p#righter{
+	font-size: 12px;
+}
+span{
+	font-size: 16px;
+}
+.quan-right{
+	width: 395px;
+	height: 175px;
 	float: right;
-	width: 390px;
-	height:250px;
-	padding: 0 0 15px 550px;
-}
-p#right span{
-	font-size: 14px;
 	color: #000;
 }
 
@@ -213,11 +253,18 @@ p#right span{
 	float: right;
 	margin: 10px 50px 10px;
 }
+.script ul li:hover{
+	cursor: pointer;
+}
 .script ul li.sfhgh1 {
 }
 .script ul img{
 	float: right;
 	padding: 30px 0 0 0;
+}
+span.dotted1{
+	margin: auto;
+	height: 400px;
 }
 
 
