@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "微软雅黑";
 }
 .wrapper{
 	background: #525151;
@@ -62,6 +63,7 @@
 	width: 172px;
 	margin: 0 0 10px 0;
 }
+
 .choice ul li{
 	width: 170px;
 	height: 40px;
@@ -255,7 +257,7 @@ span{
 	margin: auto;
 
 }
-.script ul{
+.scriptbotton{
 	width: 1010px;
 	height: 300px;
 	margin: 0 auto;
@@ -266,8 +268,14 @@ span{
 	background-repeat:no-repeat;
 	background-position: left;
 	margin: 25px 90px 30px 195px;
-	padding: 50px 0 20px 0;
 	border-bottom: 1px solid #fff;
+}
+ul#sfhgh0.paytools{
+	overflow: hidden;
+	list-style-type: none;
+}
+ul#sfhgh2.jjj{
+	list-style-type: none;
 }
 .script ul li{
 	float: right;
