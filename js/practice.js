@@ -200,28 +200,7 @@ var link=[
         url:'ddddd'
     }
 ]
-/*var last=[
- {
- title:'新手入门uuuu',
- url:'ssss'
- },
- {
- title:'诚招英才rr',
- url:'ssss'
- },
- {
- title:'增值服务',
- url:'ssss'
- },
- {
- title:'在线支付',
- url:'ssss'
- },
- {
- title:'物流服务',
- url:'ssss'
- }
- ]*/
+
 
 ajax('/php/getdata.php',{},function(last) {
     var last = JSON.parse(last);
